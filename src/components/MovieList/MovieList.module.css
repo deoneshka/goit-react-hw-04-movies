@@ -1,0 +1,16 @@
+.movieList::not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.movieList__link {
+  display: block;
+  list-style: none;
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  border: 4px solid transparent;
+}
+
+.movieList__link:hover {
+  color: teal;
+}

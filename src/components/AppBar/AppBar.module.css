@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  min-height: 80px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.navigation__link {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  border: 4px solid transparent;
+}
+
+.navigation__link:hover {
+  color: teal;
+}
+
+.navigation__link_active {
+  color: teal;
+}
